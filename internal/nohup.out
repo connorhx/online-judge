@@ -1,0 +1,224 @@
+
+2025/03/26 00:32:57 [35m/home/hxk/online-judge/internal/models/init.go:18
+[0m[31m[error] [0mfailed to initialize database, got error Error 1045 (28000): Access denied for user ''@'localhost' (using password: NO)
+2025/03/26 00:32:57 gorm Init Error :  Error 1045 (28000): Access denied for user ''@'localhost' (using password: NO)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /problem-list             --> github.com/connorhx/online-judge/internal/service.GetProblemList (4 handlers)
+[GIN-debug] GET    /problem-detail           --> github.com/connorhx/online-judge/internal/service.GetProblemDetail (4 handlers)
+[GIN-debug] GET    /user-detail              --> github.com/connorhx/online-judge/internal/service.GetUserDetail (4 handlers)
+[GIN-debug] POST   /login                    --> github.com/connorhx/online-judge/internal/service.Login (4 handlers)
+[GIN-debug] POST   /send-code                --> github.com/connorhx/online-judge/internal/service.SendCode (4 handlers)
+[GIN-debug] POST   /register                 --> github.com/connorhx/online-judge/internal/service.Register (4 handlers)
+[GIN-debug] GET    /rank-list                --> github.com/connorhx/online-judge/internal/service.GetRankList (4 handlers)
+[GIN-debug] GET    /submit-list              --> github.com/connorhx/online-judge/internal/service.GetSubmitList (4 handlers)
+[GIN-debug] GET    /category-list            --> github.com/connorhx/online-judge/internal/service.GetCategoryList (4 handlers)
+[GIN-debug] GET    /contest-list             --> github.com/connorhx/online-judge/internal/service.GetContestList (4 handlers)
+[GIN-debug] GET    /contest-detail           --> github.com/connorhx/online-judge/internal/service.GetContestDetail (4 handlers)
+[GIN-debug] POST   /admin/problem-create     --> github.com/connorhx/online-judge/internal/service.ProblemCreate (5 handlers)
+[GIN-debug] PUT    /admin/problem-modify     --> github.com/connorhx/online-judge/internal/service.ProblemModify (5 handlers)
+[GIN-debug] POST   /admin/category-create    --> github.com/connorhx/online-judge/internal/service.CategoryCreate (5 handlers)
+[GIN-debug] PUT    /admin/category-modify    --> github.com/connorhx/online-judge/internal/service.CategoryModify (5 handlers)
+[GIN-debug] DELETE /admin/category-delete    --> github.com/connorhx/online-judge/internal/service.CategoryDelete (5 handlers)
+[GIN-debug] GET    /admin/test-case          --> github.com/connorhx/online-judge/internal/service.GetTestCase (5 handlers)
+[GIN-debug] POST   /admin/contest-create     --> github.com/connorhx/online-judge/internal/service.ContestCreate (5 handlers)
+[GIN-debug] PUT    /admin/contest-modify     --> github.com/connorhx/online-judge/internal/service.ContestModify (5 handlers)
+[GIN-debug] DELETE /admin/contest-delete     --> github.com/connorhx/online-judge/internal/service.ContestDelete (5 handlers)
+[GIN-debug] POST   /user/submit              --> github.com/connorhx/online-judge/internal/service.Submit (5 handlers)
+[GIN-debug] POST   /user/contest-registration --> github.com/connorhx/online-judge/internal/service.ContestRegistration (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [ERROR] listen tcp :8080: bind: address already in use
+
+2025/03/26 00:34:57 [35m/home/hxk/online-judge/internal/models/init.go:18
+[0m[31m[error] [0mfailed to initialize database, got error Error 1045 (28000): Access denied for user ''@'localhost' (using password: NO)
+2025/03/26 00:34:57 gorm Init Error :  Error 1045 (28000): Access denied for user ''@'localhost' (using password: NO)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /problem-list             --> github.com/connorhx/online-judge/internal/service.GetProblemList (4 handlers)
+[GIN-debug] GET    /problem-detail           --> github.com/connorhx/online-judge/internal/service.GetProblemDetail (4 handlers)
+[GIN-debug] GET    /user-detail              --> github.com/connorhx/online-judge/internal/service.GetUserDetail (4 handlers)
+[GIN-debug] POST   /login                    --> github.com/connorhx/online-judge/internal/service.Login (4 handlers)
+[GIN-debug] POST   /send-code                --> github.com/connorhx/online-judge/internal/service.SendCode (4 handlers)
+[GIN-debug] POST   /register                 --> github.com/connorhx/online-judge/internal/service.Register (4 handlers)
+[GIN-debug] GET    /rank-list                --> github.com/connorhx/online-judge/internal/service.GetRankList (4 handlers)
+[GIN-debug] GET    /submit-list              --> github.com/connorhx/online-judge/internal/service.GetSubmitList (4 handlers)
+[GIN-debug] GET    /category-list            --> github.com/connorhx/online-judge/internal/service.GetCategoryList (4 handlers)
+[GIN-debug] GET    /contest-list             --> github.com/connorhx/online-judge/internal/service.GetContestList (4 handlers)
+[GIN-debug] GET    /contest-detail           --> github.com/connorhx/online-judge/internal/service.GetContestDetail (4 handlers)
+[GIN-debug] POST   /admin/problem-create     --> github.com/connorhx/online-judge/internal/service.ProblemCreate (5 handlers)
+[GIN-debug] PUT    /admin/problem-modify     --> github.com/connorhx/online-judge/internal/service.ProblemModify (5 handlers)
+[GIN-debug] POST   /admin/category-create    --> github.com/connorhx/online-judge/internal/service.CategoryCreate (5 handlers)
+[GIN-debug] PUT    /admin/category-modify    --> github.com/connorhx/online-judge/internal/service.CategoryModify (5 handlers)
+[GIN-debug] DELETE /admin/category-delete    --> github.com/connorhx/online-judge/internal/service.CategoryDelete (5 handlers)
+[GIN-debug] GET    /admin/test-case          --> github.com/connorhx/online-judge/internal/service.GetTestCase (5 handlers)
+[GIN-debug] POST   /admin/contest-create     --> github.com/connorhx/online-judge/internal/service.ContestCreate (5 handlers)
+[GIN-debug] PUT    /admin/contest-modify     --> github.com/connorhx/online-judge/internal/service.ContestModify (5 handlers)
+[GIN-debug] DELETE /admin/contest-delete     --> github.com/connorhx/online-judge/internal/service.ContestDelete (5 handlers)
+[GIN-debug] POST   /user/submit              --> github.com/connorhx/online-judge/internal/service.Submit (5 handlers)
+[GIN-debug] POST   /user/contest-registration --> github.com/connorhx/online-judge/internal/service.ContestRegistration (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /problem-list             --> github.com/connorhx/online-judge/internal/service.GetProblemList (4 handlers)
+[GIN-debug] GET    /problem-detail           --> github.com/connorhx/online-judge/internal/service.GetProblemDetail (4 handlers)
+[GIN-debug] GET    /user-detail              --> github.com/connorhx/online-judge/internal/service.GetUserDetail (4 handlers)
+[GIN-debug] POST   /login                    --> github.com/connorhx/online-judge/internal/service.Login (4 handlers)
+[GIN-debug] POST   /send-code                --> github.com/connorhx/online-judge/internal/service.SendCode (4 handlers)
+[GIN-debug] POST   /register                 --> github.com/connorhx/online-judge/internal/service.Register (4 handlers)
+[GIN-debug] GET    /rank-list                --> github.com/connorhx/online-judge/internal/service.GetRankList (4 handlers)
+[GIN-debug] GET    /submit-list              --> github.com/connorhx/online-judge/internal/service.GetSubmitList (4 handlers)
+[GIN-debug] GET    /category-list            --> github.com/connorhx/online-judge/internal/service.GetCategoryList (4 handlers)
+[GIN-debug] GET    /contest-list             --> github.com/connorhx/online-judge/internal/service.GetContestList (4 handlers)
+[GIN-debug] GET    /contest-detail           --> github.com/connorhx/online-judge/internal/service.GetContestDetail (4 handlers)
+[GIN-debug] POST   /admin/problem-create     --> github.com/connorhx/online-judge/internal/service.ProblemCreate (5 handlers)
+[GIN-debug] PUT    /admin/problem-modify     --> github.com/connorhx/online-judge/internal/service.ProblemModify (5 handlers)
+[GIN-debug] POST   /admin/category-create    --> github.com/connorhx/online-judge/internal/service.CategoryCreate (5 handlers)
+[GIN-debug] PUT    /admin/category-modify    --> github.com/connorhx/online-judge/internal/service.CategoryModify (5 handlers)
+[GIN-debug] DELETE /admin/category-delete    --> github.com/connorhx/online-judge/internal/service.CategoryDelete (5 handlers)
+[GIN-debug] GET    /admin/test-case          --> github.com/connorhx/online-judge/internal/service.GetTestCase (5 handlers)
+[GIN-debug] POST   /admin/contest-create     --> github.com/connorhx/online-judge/internal/service.ContestCreate (5 handlers)
+[GIN-debug] PUT    /admin/contest-modify     --> github.com/connorhx/online-judge/internal/service.ContestModify (5 handlers)
+[GIN-debug] DELETE /admin/contest-delete     --> github.com/connorhx/online-judge/internal/service.ContestDelete (5 handlers)
+[GIN-debug] POST   /user/submit              --> github.com/connorhx/online-judge/internal/service.Submit (5 handlers)
+[GIN-debug] POST   /user/contest-registration --> github.com/connorhx/online-judge/internal/service.ContestRegistration (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [ERROR] listen tcp :8080: bind: address already in use
+signal: killed
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /problem-list             --> github.com/connorhx/online-judge/internal/service.GetProblemList (4 handlers)
+[GIN-debug] GET    /problem-detail           --> github.com/connorhx/online-judge/internal/service.GetProblemDetail (4 handlers)
+[GIN-debug] GET    /user-detail              --> github.com/connorhx/online-judge/internal/service.GetUserDetail (4 handlers)
+[GIN-debug] POST   /login                    --> github.com/connorhx/online-judge/internal/service.Login (4 handlers)
+[GIN-debug] POST   /send-code                --> github.com/connorhx/online-judge/internal/service.SendCode (4 handlers)
+[GIN-debug] POST   /register                 --> github.com/connorhx/online-judge/internal/service.Register (4 handlers)
+[GIN-debug] GET    /rank-list                --> github.com/connorhx/online-judge/internal/service.GetRankList (4 handlers)
+[GIN-debug] GET    /submit-list              --> github.com/connorhx/online-judge/internal/service.GetSubmitList (4 handlers)
+[GIN-debug] GET    /category-list            --> github.com/connorhx/online-judge/internal/service.GetCategoryList (4 handlers)
+[GIN-debug] GET    /contest-list             --> github.com/connorhx/online-judge/internal/service.GetContestList (4 handlers)
+[GIN-debug] GET    /contest-detail           --> github.com/connorhx/online-judge/internal/service.GetContestDetail (4 handlers)
+[GIN-debug] POST   /admin/problem-create     --> github.com/connorhx/online-judge/internal/service.ProblemCreate (5 handlers)
+[GIN-debug] PUT    /admin/problem-modify     --> github.com/connorhx/online-judge/internal/service.ProblemModify (5 handlers)
+[GIN-debug] POST   /admin/category-create    --> github.com/connorhx/online-judge/internal/service.CategoryCreate (5 handlers)
+[GIN-debug] PUT    /admin/category-modify    --> github.com/connorhx/online-judge/internal/service.CategoryModify (5 handlers)
+[GIN-debug] DELETE /admin/category-delete    --> github.com/connorhx/online-judge/internal/service.CategoryDelete (5 handlers)
+[GIN-debug] GET    /admin/test-case          --> github.com/connorhx/online-judge/internal/service.GetTestCase (5 handlers)
+[GIN-debug] POST   /admin/contest-create     --> github.com/connorhx/online-judge/internal/service.ContestCreate (5 handlers)
+[GIN-debug] PUT    /admin/contest-modify     --> github.com/connorhx/online-judge/internal/service.ContestModify (5 handlers)
+[GIN-debug] DELETE /admin/contest-delete     --> github.com/connorhx/online-judge/internal/service.ContestDelete (5 handlers)
+[GIN-debug] POST   /user/submit              --> github.com/connorhx/online-judge/internal/service.Submit (5 handlers)
+[GIN-debug] POST   /user/contest-registration --> github.com/connorhx/online-judge/internal/service.ContestRegistration (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+signal: killed
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /problem-list             --> github.com/connorhx/online-judge/internal/service.GetProblemList (4 handlers)
+[GIN-debug] GET    /problem-detail           --> github.com/connorhx/online-judge/internal/service.GetProblemDetail (4 handlers)
+[GIN-debug] GET    /user-detail              --> github.com/connorhx/online-judge/internal/service.GetUserDetail (4 handlers)
+[GIN-debug] POST   /login                    --> github.com/connorhx/online-judge/internal/service.Login (4 handlers)
+[GIN-debug] POST   /send-code                --> github.com/connorhx/online-judge/internal/service.SendCode (4 handlers)
+[GIN-debug] POST   /register                 --> github.com/connorhx/online-judge/internal/service.Register (4 handlers)
+[GIN-debug] GET    /rank-list                --> github.com/connorhx/online-judge/internal/service.GetRankList (4 handlers)
+[GIN-debug] GET    /submit-list              --> github.com/connorhx/online-judge/internal/service.GetSubmitList (4 handlers)
+[GIN-debug] GET    /category-list            --> github.com/connorhx/online-judge/internal/service.GetCategoryList (4 handlers)
+[GIN-debug] GET    /contest-list             --> github.com/connorhx/online-judge/internal/service.GetContestList (4 handlers)
+[GIN-debug] GET    /contest-detail           --> github.com/connorhx/online-judge/internal/service.GetContestDetail (4 handlers)
+[GIN-debug] POST   /admin/problem-create     --> github.com/connorhx/online-judge/internal/service.ProblemCreate (5 handlers)
+[GIN-debug] PUT    /admin/problem-modify     --> github.com/connorhx/online-judge/internal/service.ProblemModify (5 handlers)
+[GIN-debug] POST   /admin/category-create    --> github.com/connorhx/online-judge/internal/service.CategoryCreate (5 handlers)
+[GIN-debug] PUT    /admin/category-modify    --> github.com/connorhx/online-judge/internal/service.CategoryModify (5 handlers)
+[GIN-debug] DELETE /admin/category-delete    --> github.com/connorhx/online-judge/internal/service.CategoryDelete (5 handlers)
+[GIN-debug] GET    /admin/test-case          --> github.com/connorhx/online-judge/internal/service.GetTestCase (5 handlers)
+[GIN-debug] POST   /admin/contest-create     --> github.com/connorhx/online-judge/internal/service.ContestCreate (5 handlers)
+[GIN-debug] PUT    /admin/contest-modify     --> github.com/connorhx/online-judge/internal/service.ContestModify (5 handlers)
+[GIN-debug] DELETE /admin/contest-delete     --> github.com/connorhx/online-judge/internal/service.ContestDelete (5 handlers)
+[GIN-debug] POST   /user/submit              --> github.com/connorhx/online-judge/internal/service.Submit (5 handlers)
+[GIN-debug] POST   /user/contest-registration --> github.com/connorhx/online-judge/internal/service.ContestRegistration (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/03/26 - 20:58:27 | 404 |       3.167µs | 219.133.203.132 | GET      "/"
+[GIN] 2025/03/26 - 20:58:28 | 404 |       2.993µs | 219.133.203.132 | GET      "/favicon.ico"
+[GIN] 2025/03/26 - 20:58:30 | 404 |       3.973µs | 219.133.203.132 | GET      "/"
+[GIN] 2025/03/26 - 20:58:33 | 404 |       3.399µs | 219.133.203.132 | GET      "/"
+[GIN] 2025/03/26 - 20:58:33 | 404 |       3.281µs | 219.133.203.132 | GET      "/"
+[GIN] 2025/03/26 - 20:58:33 | 404 |       3.402µs | 219.133.203.132 | GET      "/"
+[GIN] 2025/03/26 - 20:58:33 | 404 |       3.392µs | 219.133.203.132 | GET      "/"
+[GIN] 2025/03/26 - 20:58:33 | 404 |        4.19µs | 219.133.203.132 | GET      "/"
+[GIN] 2025/03/26 - 20:58:40 | 404 |       3.852µs | 219.133.203.132 | GET      "/"
+[GIN] 2025/03/26 - 20:58:40 | 404 |       4.117µs | 219.133.203.132 | GET      "/"
+[GIN] 2025/03/26 - 20:58:43 | 404 |       4.557µs | 219.133.203.132 | GET      "/"
+[GIN] 2025/03/26 - 20:59:01 | 404 |       3.803µs | 219.133.203.132 | GET      "/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /problem-list             --> github.com/connorhx/online-judge/internal/service.GetProblemList (4 handlers)
+[GIN-debug] GET    /problem-detail           --> github.com/connorhx/online-judge/internal/service.GetProblemDetail (4 handlers)
+[GIN-debug] GET    /user-detail              --> github.com/connorhx/online-judge/internal/service.GetUserDetail (4 handlers)
+[GIN-debug] POST   /login                    --> github.com/connorhx/online-judge/internal/service.Login (4 handlers)
+[GIN-debug] POST   /send-code                --> github.com/connorhx/online-judge/internal/service.SendCode (4 handlers)
+[GIN-debug] POST   /register                 --> github.com/connorhx/online-judge/internal/service.Register (4 handlers)
+[GIN-debug] GET    /rank-list                --> github.com/connorhx/online-judge/internal/service.GetRankList (4 handlers)
+[GIN-debug] GET    /submit-list              --> github.com/connorhx/online-judge/internal/service.GetSubmitList (4 handlers)
+[GIN-debug] GET    /category-list            --> github.com/connorhx/online-judge/internal/service.GetCategoryList (4 handlers)
+[GIN-debug] GET    /contest-list             --> github.com/connorhx/online-judge/internal/service.GetContestList (4 handlers)
+[GIN-debug] GET    /contest-detail           --> github.com/connorhx/online-judge/internal/service.GetContestDetail (4 handlers)
+[GIN-debug] POST   /admin/problem-create     --> github.com/connorhx/online-judge/internal/service.ProblemCreate (5 handlers)
+[GIN-debug] PUT    /admin/problem-modify     --> github.com/connorhx/online-judge/internal/service.ProblemModify (5 handlers)
+[GIN-debug] POST   /admin/category-create    --> github.com/connorhx/online-judge/internal/service.CategoryCreate (5 handlers)
+[GIN-debug] PUT    /admin/category-modify    --> github.com/connorhx/online-judge/internal/service.CategoryModify (5 handlers)
+[GIN-debug] DELETE /admin/category-delete    --> github.com/connorhx/online-judge/internal/service.CategoryDelete (5 handlers)
+[GIN-debug] GET    /admin/test-case          --> github.com/connorhx/online-judge/internal/service.GetTestCase (5 handlers)
+[GIN-debug] POST   /admin/contest-create     --> github.com/connorhx/online-judge/internal/service.ContestCreate (5 handlers)
+[GIN-debug] PUT    /admin/contest-modify     --> github.com/connorhx/online-judge/internal/service.ContestModify (5 handlers)
+[GIN-debug] DELETE /admin/contest-delete     --> github.com/connorhx/online-judge/internal/service.ContestDelete (5 handlers)
+[GIN-debug] POST   /user/submit              --> github.com/connorhx/online-judge/internal/service.Submit (5 handlers)
+[GIN-debug] POST   /user/contest-registration --> github.com/connorhx/online-judge/internal/service.ContestRegistration (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [ERROR] listen tcp :8080: bind: address already in use
+signal: terminated
